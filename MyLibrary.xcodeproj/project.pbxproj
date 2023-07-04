@@ -16,6 +16,9 @@
 		5BF2613E2A5392810014BFE3 /* MyLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2613D2A5392810014BFE3 /* MyLibraryTests.swift */; };
 		5BF261482A5392810014BFE3 /* MyLibraryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF261472A5392810014BFE3 /* MyLibraryUITests.swift */; };
 		5BF2614A2A5392810014BFE3 /* MyLibraryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF261492A5392810014BFE3 /* MyLibraryUITestsLaunchTests.swift */; };
+		5BF261572A5393070014BFE3 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF261562A5393070014BFE3 /* FormView.swift */; };
+		5BF261592A5394AF0014BFE3 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF261582A5394AF0014BFE3 /* ListView.swift */; };
+		5BF2615B2A5395230014BFE3 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2615A2A5395230014BFE3 /* Status.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		5BF261432A5392810014BFE3 /* MyLibraryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLibraryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF261472A5392810014BFE3 /* MyLibraryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLibraryUITests.swift; sourceTree = "<group>"; };
 		5BF261492A5392810014BFE3 /* MyLibraryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLibraryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5BF261562A5393070014BFE3 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		5BF261582A5394AF0014BFE3 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		5BF2615A2A5395230014BFE3 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 			children = (
 				5BF261272A53927E0014BFE3 /* MyLibraryApp.swift */,
 				5BF261292A53927E0014BFE3 /* ContentView.swift */,
+				5BF261562A5393070014BFE3 /* FormView.swift */,
+				5BF2615A2A5395230014BFE3 /* Status.swift */,
+				5BF261582A5394AF0014BFE3 /* ListView.swift */,
 				5BF2612B2A5392800014BFE3 /* Assets.xcassets */,
 				5BF261302A5392800014BFE3 /* Persistence.swift */,
 				5BF261322A5392800014BFE3 /* MyLibrary.xcdatamodeld */,
@@ -265,6 +274,9 @@
 			files = (
 				5BF261312A5392800014BFE3 /* Persistence.swift in Sources */,
 				5BF261342A5392800014BFE3 /* MyLibrary.xcdatamodeld in Sources */,
+				5BF2615B2A5395230014BFE3 /* Status.swift in Sources */,
+				5BF261592A5394AF0014BFE3 /* ListView.swift in Sources */,
+				5BF261572A5393070014BFE3 /* FormView.swift in Sources */,
 				5BF2612A2A53927E0014BFE3 /* ContentView.swift in Sources */,
 				5BF261282A53927E0014BFE3 /* MyLibraryApp.swift in Sources */,
 			);
